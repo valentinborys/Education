@@ -57,5 +57,5 @@ for car, details in filter_avto:
     color, year, engine, car_type, price = details
     print(f"Автомобиль=> {car}: {color}, {year}, {engine}, {car_type}, ${price}")
 
-if filter_avto==[]:
+if filter_avto == []:
     print("\nАвтомобилей с вашим бюджетом нет:(")
