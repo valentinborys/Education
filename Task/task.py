@@ -1,10 +1,13 @@
 import random
 
+
 def rep(text):
     text1 = text.replace("e", "x")
     print("Результат: " + text1)
 
+
 rep("eeemoboy")
+
 
 def fibonacci(x):
     a, b = 0, 1
@@ -13,8 +16,8 @@ def fibonacci(x):
 
         print(a)
 
-print(fibonacci(100))
 
+print(fibonacci(100))
 
 x = [2, 4, 56, 345, 332, 23, 234, 23, 235, 67]
 re = []
@@ -28,7 +31,6 @@ b = "TEST, HOW ARE U?"
 c = b.replace("TEST", "VALENTYN")
 
 print(c)
-
 
 s = [1, 7, 3, 4]
 b = sorted(s)

@@ -2,5 +2,5 @@ fruits = ["apple", "banana", "cherry", "pipa", "Xrry", "Test", "Tetu", "TaTa", "
 word_with_a = []
 
 for index, word in enumerate(fruits):
-    if len(word)==5:
+    if len(word) == 5:
         print(word)
