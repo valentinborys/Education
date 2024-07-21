@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3990e019-6947-4a0c-b084-040c5c5d6802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Task 19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_task_20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Education.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Education.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pydantic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +57,8 @@
     "Python tests.Python tests in Task 19.py.executor": "Run",
     "Python tests.Python tests in test_task_20.py.executor": "Run",
     "Python.Faker.executor": "Run",
+    "Python.OOP.executor": "Run",
+    "Python.Pydantic.executor": "Run",
     "Python.Task 1.executor": "Run",
     "Python.Task 10.executor": "Run",
     "Python.Task 11.executor": "Run",
@@ -83,7 +83,7 @@
     "Python.task_20.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "faker",
     "last_opened_file_path": "C:/Users/Valentyn/PycharmProjects/Education",
     "settings.editor.selected.configurable": "Errors"
   }
@@ -95,7 +95,7 @@
       <recent name="C:\Users\lenov\PycharmProjects\Hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Faker">
+  <component name="RunManager" selected="Python.OOP">
     <configuration name="Faker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
@@ -109,7 +109,51 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Faker.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Valentyn\PycharmProjects\Education\Faker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OOP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Pydantic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pydantic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,36 +182,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for mail.test_gmail_dos" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;mail.test_gmail_dos&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for mail.test_gmail_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;mail.test_gmail_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_task_20.test_get_minfin_data" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -202,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.OOP" />
+        <item itemvalue="Python.Pydantic" />
         <item itemvalue="Python.Faker" />
         <item itemvalue="Python tests.Python tests for test_task_20.test_get_minfin_data" />
         <item itemvalue="Python tests.Python tests for test_task_20.test_reason" />
-        <item itemvalue="Python tests.Python tests for mail.test_gmail_login" />
-        <item itemvalue="Python tests.Python tests for mail.test_gmail_dos" />
       </list>
     </recent_temporary>
   </component>
