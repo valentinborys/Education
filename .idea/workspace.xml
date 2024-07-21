@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3990e019-6947-4a0c-b084-040c5c5d6802" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/Task 19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_task_20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Education.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Education.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,42 +47,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Task 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 12.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 14.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 17.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 18.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 19.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test 13.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test 5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test 7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenov/PycharmProjects/Education&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for mail.test.executor": "Run",
+    "Python tests.Python tests for mail.test_gmail_dos.executor": "Run",
+    "Python tests.Python tests for mail.test_gmail_login.executor": "Run",
+    "Python tests.Python tests for mail.test_open_gmail.executor": "Run",
+    "Python tests.Python tests for task_20.test_reason.executor": "Run",
+    "Python tests.Python tests for test_task_20.test_get_minfin_data.executor": "Run",
+    "Python tests.Python tests for test_task_20.test_reason.executor": "Run",
+    "Python tests.Python tests in Task 19.py.executor": "Run",
+    "Python tests.Python tests in test_task_20.py.executor": "Run",
+    "Python.Faker.executor": "Run",
+    "Python.Task 1.executor": "Run",
+    "Python.Task 10.executor": "Run",
+    "Python.Task 11.executor": "Run",
+    "Python.Task 12.executor": "Run",
+    "Python.Task 14.executor": "Run",
+    "Python.Task 15.executor": "Run",
+    "Python.Task 17.executor": "Run",
+    "Python.Task 18.executor": "Run",
+    "Python.Task 19.executor": "Run",
+    "Python.Task 2.executor": "Run",
+    "Python.Task 3.executor": "Run",
+    "Python.Task 5.executor": "Run",
+    "Python.Task 6.executor": "Run",
+    "Python.Task 7.executor": "Run",
+    "Python.Task 8.executor": "Run",
+    "Python.Task 9.executor": "Run",
+    "Python.Test 13.executor": "Run",
+    "Python.Test 5.executor": "Run",
+    "Python.Test 7.executor": "Run",
+    "Python.mail.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.task_20.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Valentyn/PycharmProjects/Education",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Valentyn\PycharmProjects\Education" />
       <recent name="C:\Users\lenov\PycharmProjects\Education" />
       <recent name="C:\Users\lenov\PycharmProjects\Hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Task 19">
-    <configuration name="Task 14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Faker">
+    <configuration name="Faker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,100 +105,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task 14.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Task 15" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task 15.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Task 17" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task 17.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Task 18" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task 18.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Task 19" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (HillelSchool)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task 19.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Faker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,13 +140,73 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for mail.test_gmail_dos" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mail.test_gmail_dos&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for mail.test_gmail_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mail.test_gmail_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_task_20.test_get_minfin_data" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_task_20.test_get_minfin_data&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_task_20.test_reason" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_task_20.test_reason&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Task 19" />
-        <item itemvalue="Python.Task 18" />
-        <item itemvalue="Python.Task 17" />
-        <item itemvalue="Python.Task 15" />
-        <item itemvalue="Python.Task 14" />
+        <item itemvalue="Python.Faker" />
+        <item itemvalue="Python tests.Python tests for test_task_20.test_get_minfin_data" />
+        <item itemvalue="Python tests.Python tests for test_task_20.test_reason" />
+        <item itemvalue="Python tests.Python tests for mail.test_gmail_login" />
+        <item itemvalue="Python tests.Python tests for mail.test_gmail_dos" />
       </list>
     </recent_temporary>
   </component>
