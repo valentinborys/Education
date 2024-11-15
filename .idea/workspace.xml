@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3990e019-6947-4a0c-b084-040c5c5d6802" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Education.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Education.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/Cards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/Faker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/OOP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pydantic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/pydantic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/index_using.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/working_with_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/cortage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/find_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/eval_calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 15.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/index_element.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 16.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 17.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/parametraze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/index_contains.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/reverse_array_elemant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/reverse_and_contain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/work_with_dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/dictionary_work.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/dictionary_use.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_task_20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/api_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +47,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for array_working.TestSolution.executor": "Run",
+    "Python tests.Python tests for array_working.TestSolution.test_plusOne.executor": "Run",
+    "Python tests.Python tests for array_working.test_plusOne.executor": "Run",
     "Python tests.Python tests for mail.test.executor": "Run",
     "Python tests.Python tests for mail.test_gmail_dos.executor": "Run",
     "Python tests.Python tests for mail.test_gmail_login.executor": "Run",
@@ -115,78 +96,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Valentyn\PycharmProjects\Education\Task" />
       <recent name="C:\Users\Valentyn\PycharmProjects\Education" />
       <recent name="C:\Users\lenov\PycharmProjects\Education" />
       <recent name="C:\Users\lenov\PycharmProjects\Hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task">
-    <configuration name="eval_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Valentyn\PycharmProjects\Education\Task\eval_calculator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Valentyn\PycharmProjects\Education\Task\fibonacci.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="index_element" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Valentyn\PycharmProjects\Education\Task\index_element.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for array_working.test_unit">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
@@ -231,35 +147,73 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="working_with_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for array_working.TestSolution" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Valentyn\PycharmProjects\Education\Task\working_with_string.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;array_working.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for array_working.TestSolution.test_plusOne" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;array_working.TestSolution.test_plusOne&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for array_working.test_plusOne" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;array_working.test_plusOne&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for array_working.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;array_working.test_unit&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for array_working.test_unit" />
+        <item itemvalue="Python tests.Python tests for array_working.TestSolution.test_plusOne" />
+        <item itemvalue="Python tests.Python tests for array_working.TestSolution" />
+        <item itemvalue="Python tests.Python tests for array_working.test_plusOne" />
         <item itemvalue="Python.task" />
-        <item itemvalue="Python.fibonacci" />
-        <item itemvalue="Python.index_element" />
-        <item itemvalue="Python.eval_calculator" />
-        <item itemvalue="Python.working_with_string" />
       </list>
     </recent_temporary>
   </component>
