@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3990e019-6947-4a0c-b084-040c5c5d6802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Task/ispoweroftwo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/stairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/isPowerOfThree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,21 +46,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for addDigits.test_unit.executor": "Run",
     "Python tests.Python tests for array_working.TestSolution.executor": "Run",
     "Python tests.Python tests for array_working.TestSolution.test_plusOne.executor": "Run",
     "Python tests.Python tests for array_working.test_arr.executor": "Run",
     "Python tests.Python tests for array_working.test_plusOne.executor": "Run",
     "Python tests.Python tests for array_working.test_unit.executor": "Run",
     "Python tests.Python tests for binary_sum.test_unit.executor": "Run",
+    "Python tests.Python tests for isPowerOfFour.test_unit.executor": "Run",
+    "Python tests.Python tests for isPowerOfThree.test_unit.executor": "Run",
+    "Python tests.Python tests for ispoweroftwo.test_unit.executor": "Run",
+    "Python tests.Python tests for list_comprihation.test_list.executor": "Run",
     "Python tests.Python tests for mail.test.executor": "Run",
     "Python tests.Python tests for mail.test_gmail_dos.executor": "Run",
     "Python tests.Python tests for mail.test_gmail_login.executor": "Run",
     "Python tests.Python tests for mail.test_open_gmail.executor": "Run",
+    "Python tests.Python tests for missingelement.test_unit.executor": "Run",
+    "Python tests.Python tests for romanToInt.test_unit.executor": "Run",
     "Python tests.Python tests for stairs.test_1.executor": "Run",
     "Python tests.Python tests for stairs.test_unit.executor": "Run",
     "Python tests.Python tests for task_20.test_reason.executor": "Run",
     "Python tests.Python tests for test_task_20.test_get_minfin_data.executor": "Run",
     "Python tests.Python tests for test_task_20.test_reason.executor": "Run",
+    "Python tests.Python tests for twoSum.test_unit.executor": "Run",
     "Python tests.Python tests in Task 19.py.executor": "Run",
     "Python tests.Python tests in test_task_20.py.executor": "Run",
     "Python.Faker.executor": "Run",
@@ -107,7 +114,7 @@
       <recent name="C:\Users\lenov\PycharmProjects\Hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for stairs.test_unit">
+  <component name="RunManager" selected="Python tests.Python tests for isPowerOfFour.test_unit">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
@@ -130,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for array_working.test_arr" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for isPowerOfFour.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,11 +148,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;array_working.test_arr&quot;" />
+      <option name="_new_target" value="&quot;isPowerOfFour.test_unit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for array_working.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for isPowerOfThree.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,11 +163,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;array_working.test_unit&quot;" />
+      <option name="_new_target" value="&quot;isPowerOfThree.test_unit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for binary_sum.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for missingelement.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,11 +178,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;binary_sum.test_unit&quot;" />
+      <option name="_new_target" value="&quot;missingelement.test_unit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for stairs.test_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for romanToInt.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,11 +193,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;stairs.test_1&quot;" />
+      <option name="_new_target" value="&quot;romanToInt.test_unit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for stairs.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for twoSum.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,17 +208,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;stairs.test_unit&quot;" />
+      <option name="_new_target" value="&quot;twoSum.test_unit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for stairs.test_unit" />
-        <item itemvalue="Python tests.Python tests for stairs.test_1" />
-        <item itemvalue="Python tests.Python tests for binary_sum.test_unit" />
-        <item itemvalue="Python tests.Python tests for array_working.test_arr" />
-        <item itemvalue="Python tests.Python tests for array_working.test_unit" />
+        <item itemvalue="Python tests.Python tests for isPowerOfFour.test_unit" />
+        <item itemvalue="Python tests.Python tests for isPowerOfThree.test_unit" />
+        <item itemvalue="Python tests.Python tests for missingelement.test_unit" />
+        <item itemvalue="Python tests.Python tests for twoSum.test_unit" />
+        <item itemvalue="Python tests.Python tests for romanToInt.test_unit" />
       </list>
     </recent_temporary>
   </component>
