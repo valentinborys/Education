@@ -13,3 +13,4 @@ class Solution(object):
 def test_unit():
     solution = Solution()
     solution.isPalindrome("A man, a plan, a canal: Panama....")
+
