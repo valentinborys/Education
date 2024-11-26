@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3990e019-6947-4a0c-b084-040c5c5d6802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Task/isPowerOfThree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/merged_sorted_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +57,14 @@
     "Python tests.Python tests for isPowerOfThree.test_unit.executor": "Run",
     "Python tests.Python tests for ispoweroftwo.test_unit.executor": "Run",
     "Python tests.Python tests for list_comprihation.test_list.executor": "Run",
+    "Python tests.Python tests for longest_common_prefix.test_test.executor": "Run",
     "Python tests.Python tests for mail.test.executor": "Run",
     "Python tests.Python tests for mail.test_gmail_dos.executor": "Run",
     "Python tests.Python tests for mail.test_gmail_login.executor": "Run",
     "Python tests.Python tests for mail.test_open_gmail.executor": "Run",
+    "Python tests.Python tests for merged_sorted_list.test_unit.executor": "Run",
     "Python tests.Python tests for missingelement.test_unit.executor": "Run",
+    "Python tests.Python tests for palindrom.test_unit.executor": "Run",
     "Python tests.Python tests for romanToInt.test_unit.executor": "Run",
     "Python tests.Python tests for stairs.test_1.executor": "Run",
     "Python tests.Python tests for stairs.test_unit.executor": "Run",
@@ -101,7 +104,7 @@
     "Python.task_20.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "oop",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Valentyn/PycharmProjects/Education",
     "settings.editor.selected.configurable": "Errors"
   }
@@ -114,7 +117,7 @@
       <recent name="C:\Users\lenov\PycharmProjects\Hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for isPowerOfFour.test_unit">
+  <component name="RunManager" selected="Python tests.Python tests for palindrom.test_unit">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
@@ -167,7 +170,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for missingelement.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for longest_common_prefix.test_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,11 +181,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;missingelement.test_unit&quot;" />
+      <option name="_new_target" value="&quot;longest_common_prefix.test_test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for romanToInt.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for merged_sorted_list.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,11 +196,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;romanToInt.test_unit&quot;" />
+      <option name="_new_target" value="&quot;merged_sorted_list.test_unit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for twoSum.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for palindrom.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,17 +211,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;twoSum.test_unit&quot;" />
+      <option name="_new_target" value="&quot;palindrom.test_unit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for palindrom.test_unit" />
+        <item itemvalue="Python tests.Python tests for merged_sorted_list.test_unit" />
+        <item itemvalue="Python tests.Python tests for longest_common_prefix.test_test" />
         <item itemvalue="Python tests.Python tests for isPowerOfFour.test_unit" />
         <item itemvalue="Python tests.Python tests for isPowerOfThree.test_unit" />
-        <item itemvalue="Python tests.Python tests for missingelement.test_unit" />
-        <item itemvalue="Python tests.Python tests for twoSum.test_unit" />
-        <item itemvalue="Python tests.Python tests for romanToInt.test_unit" />
       </list>
     </recent_temporary>
   </component>
