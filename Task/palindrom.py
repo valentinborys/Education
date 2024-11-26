@@ -12,4 +12,4 @@ class Solution(object):
 
 def test_unit():
     solution = Solution()
-    result = solution.isPalindrome("A man, a plan, a canal: Panama....")
+    solution.isPalindrome("A man, a plan, a canal: Panama....")
