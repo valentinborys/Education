@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3990e019-6947-4a0c-b084-040c5c5d6802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Task/singleNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/mergetwolist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task/palindrom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/palindrom.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,7 @@
     "Python tests.Python tests for mail.test_gmail_login.executor": "Run",
     "Python tests.Python tests for mail.test_open_gmail.executor": "Run",
     "Python tests.Python tests for merged_sorted_list.test_unit.executor": "Run",
+    "Python tests.Python tests for mergetwolist.test_unit.executor": "Run",
     "Python tests.Python tests for missingelement.test_unit.executor": "Run",
     "Python tests.Python tests for palindrom.test_test.executor": "Run",
     "Python tests.Python tests for palindrom.test_unit.executor": "Run",
@@ -71,11 +71,13 @@
     "Python tests.Python tests for singleNumber.test_unit.executor": "Run",
     "Python tests.Python tests for stairs.test_1.executor": "Run",
     "Python tests.Python tests for stairs.test_unit.executor": "Run",
+    "Python tests.Python tests for strongPasswordCheckerII.test_unit.executor": "Run",
     "Python tests.Python tests for task_20.test_reason.executor": "Run",
     "Python tests.Python tests for test_task_20.test_get_minfin_data.executor": "Run",
     "Python tests.Python tests for test_task_20.test_reason.executor": "Run",
     "Python tests.Python tests for twoSum.test_unit.executor": "Run",
     "Python tests.Python tests in Task 19.py.executor": "Run",
+    "Python tests.Python tests in Task.executor": "Run",
     "Python tests.Python tests in test_task_20.py.executor": "Run",
     "Python.Faker.executor": "Run",
     "Python.OOP.executor": "Run",
@@ -107,7 +109,7 @@
     "Python.task_20.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "single__number",
     "last_opened_file_path": "C:/Users/Valentyn/PycharmProjects/Education",
     "settings.editor.selected.configurable": "Errors"
   }
@@ -120,7 +122,7 @@
       <recent name="C:\Users\lenov\PycharmProjects\Hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for singleNumber.test_unit">
+  <component name="RunManager" selected="Python tests.Python tests for strongPasswordCheckerII.test_unit">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
@@ -143,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for longest_common_prefix.test_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for mergetwolist.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,22 +156,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;longest_common_prefix.test_test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for merged_sorted_list.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;merged_sorted_list.test_unit&quot;" />
+      <option name="_new_target" value="&quot;mergetwolist.test_unit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -188,21 +175,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for palindrom.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;palindrom.test_unit&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for singleNumber.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
@@ -218,13 +190,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for strongPasswordCheckerII.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;strongPasswordCheckerII.test_unit&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in Task" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Task&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for strongPasswordCheckerII.test_unit" />
+        <item itemvalue="Python tests.Python tests for mergetwolist.test_unit" />
+        <item itemvalue="Python tests.Python tests in Task" />
         <item itemvalue="Python tests.Python tests for singleNumber.test_unit" />
         <item itemvalue="Python tests.Python tests for palindrom.test_test" />
-        <item itemvalue="Python tests.Python tests for palindrom.test_unit" />
-        <item itemvalue="Python tests.Python tests for merged_sorted_list.test_unit" />
-        <item itemvalue="Python tests.Python tests for longest_common_prefix.test_test" />
       </list>
     </recent_temporary>
   </component>
