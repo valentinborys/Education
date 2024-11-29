@@ -27,3 +27,7 @@ def test_unit():
     solution.greatestLetter("lEeTcOdE")
     solution.greatestLetter("arRAzFif")
     solution.greatestLetter("lEeTcOdE")
+
+def test_123():
+    a = [1, 2, 3, None, (), [], ]
+    print(len(a))
