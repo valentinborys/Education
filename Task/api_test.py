@@ -36,9 +36,8 @@ response_data = response.json()
 
 print(response_data)
 
-@allure.feature("FEATURE_2")
-@allure.story("STORY_2")
-@allure.severity(allure.severity_level.CRITICAL)
+@allure.feature('Balances')
+@allure.title('Mid correct adjust balance work 2')
 @pytest.mark.api
 def test_reason():
     if response_data.get("reason") == "Ok":

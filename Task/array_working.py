@@ -12,8 +12,8 @@ class Solution(object):
         x = list(map(int, y))
         return x
 
-@allure.feature("FEATURE")
-@allure.story("STORY")
+@allure.feature('BalancesTest')
+@allure.title('Mid correct adjust balance work 3')
 @allure.severity(allure.severity_level.CRITICAL)
 def test_unit():
     unit_test = Solution()
