@@ -1,19 +1,25 @@
 stages:
-    - tests
+  - tests
 
 variables:
-    GIT_STRATEGY: clone
-    GIT_SSL_NO_VERIFY: "true"
-
+  GIT_STRATEGY: clone
+  GIT_SSL_NO_VERIFY: "true"
 
 tests:
-    stage: tests
-    image: "registry.gitlab.tnxhub.com/devops/docker-go:3.1.0"
-    script:
-        - make test || RETCODE=`echo $?` ./slack_notify.py
-        - RETCODE=0 ./slack_notify.py
-    artifacts:
-        when: on_failure
-        expire_in: '1 day'
-        paths:
-            - "*.png"
+  stage: tests
+#  image: "registry.gitlab.tnxhub.com/devops/docker-go:3.1.0"
+  script:
+    - make test
+    - RETCODE=0 ./slack_notify.py
+
+    - allure generate allure-results -o allure-report --clean || echo "Allure report generation failed"
+
+  artifacts:
+    when: always
+    expire_in: '1 day'
+    paths:
+      - "*.png"
+      - allure-report
+
+  reports:
+    allure: allure-report
