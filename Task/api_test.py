@@ -36,8 +36,8 @@ response_data = response.json()
 
 print(response_data)
 
-@allure.feature("FEATURE")
-@allure.story("STORY")
+@allure.feature("FEATURE_2")
+@allure.story("STORY_2")
 @allure.severity(allure.severity_level.CRITICAL)
 @pytest.mark.api
 def test_reason():

@@ -1,3 +1,6 @@
+import allure
+
+
 class Solution(object):
     def plusOne(self, digits):
         """
@@ -9,7 +12,9 @@ class Solution(object):
         x = list(map(int, y))
         return x
 
-
+@allure.feature("FEATURE")
+@allure.story("STORY")
+@allure.severity(allure.severity_level.CRITICAL)
 def test_unit():
     unit_test = Solution()
     result_1 = unit_test.plusOne([7, 2, 3, 4, 6])
