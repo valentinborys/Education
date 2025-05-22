@@ -1,37 +1,19 @@
-image: python:3.10-slim
-
 stages:
-  - test
-  - report
+    - tests
 
 variables:
-  JAVA_HOME: "/usr/lib/jvm/java-11-openjdk-amd64"
-  PATH: "$JAVA_HOME/bin:$PATH"
-  ALLURE_VERSION: "2.21.0"
-  ALLURE_HOME: "$CI_PROJECT_DIR/allure"
+    GIT_STRATEGY: clone
+    GIT_SSL_NO_VERIFY: "true"
 
-before_script:
-  - apt-get update && apt-get install -y openjdk-11-jdk wget unzip
-  - wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.zip
-  - unzip -q allure-${ALLURE_VERSION}.zip -d $CI_PROJECT_DIR
-  - mv $CI_PROJECT_DIR/allure-${ALLURE_VERSION} $ALLURE_HOME
-  - export PATH=$ALLURE_HOME/bin:$PATH
 
-test_job:
-  stage: test
-  script:
-    - pytest --alluredir=allure-results
-  artifacts:
-    paths:
-      - allure-results
-
-report_job:
-  stage: report
-  dependencies:
-    - test_job
-  script:
-    - $ALLURE_HOME/bin/allure generate allure-results -o allure-report --clean
-  artifacts:
-    paths:
-      - allure-report
-  when: always
+tests:
+    stage: tests
+    image: "registry.gitlab.tnxhub.com/devops/docker-go:3.1.0"
+    script:
+        - make test || RETCODE=`echo $?` ./slack_notify.py
+        - RETCODE=0 ./slack_notify.py
+    artifacts:
+        when: on_failure
+        expire_in: '1 day'
+        paths:
+            - "*.png"
