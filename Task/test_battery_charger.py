@@ -2,7 +2,7 @@ import psutil
 import pytest
 
 
-@pytest.skip
+@pytest.mark.skip
 def test_battery():
     battery = psutil.sensors_battery()
     percent = battery.percent
