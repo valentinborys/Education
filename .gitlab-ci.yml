@@ -26,3 +26,15 @@ test:
     expire_in: 1 week
     paths:
       - allure-report/
+
+report:
+  stage: report
+  image: alpine
+  script:
+    - mkdir -p public
+    - cp -r allure-report/* public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
