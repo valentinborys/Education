@@ -1,5 +1,6 @@
 stages:
   - test
+  - report
 
 variables:
   ALLURE_VERSION: "2.21.0"
