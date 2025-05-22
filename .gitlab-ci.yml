@@ -1,34 +1,17 @@
-stages:
-  - test
-  - deploy
-
-variables:
-  ALLURE_VERSION: "2.21.0"
-
-test:
-  stage: test
-  image: python:3.10-slim
+# The Docker image that will be used to build your app
+image: pages
+create-pages:
+  pages:
+    # The folder that contains the files to be exposed at the Page URL
+    publish: public
+  rules:
+    # This ensures that only pushes to the default branch will trigger
+    # a pages deploy
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+  # Functions that should be executed before the build script is run
   before_script:
-    - apt-get update && apt-get install -y unzip wget curl openjdk-17-jre
-    - pip install --upgrade pip
-    - pip install -r requirements.txt
-    - pip install allure-pytest
-    - wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.zip -O allure.zip
-    - unzip allure.zip -d /opt/
-    - export PATH="$PATH:/opt/allure-${ALLURE_VERSION}/bin"
+    - before_script
   script:
-    - pytest --alluredir=allure-results
-    - /opt/allure-${ALLURE_VERSION}/bin/allure generate allure-results -o public --clean
-  artifacts:
-    paths:
-      - public
-
-pages:
-  stage: deploy
-  script:
-    - echo "Deploying to GitLab Pages..."
-  artifacts:
-    paths:
-      - public
-  only:
-    - main
+    - "- pytest --alluredir=allure-results"
+    - "- /opt/allure-${ALLURE_VERSION}/bin/allure generate allure-results -o
+      public --clean"
