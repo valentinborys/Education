@@ -1,4 +1,3 @@
-import allure
 import psutil
 import pytest
 
