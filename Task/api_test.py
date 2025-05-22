@@ -1,3 +1,4 @@
+import allure
 import pytest
 import requests
 import json
@@ -35,7 +36,9 @@ response_data = response.json()
 
 print(response_data)
 
-
+@allure.feature("FEATURE")
+@allure.story("STORY")
+@allure.severity(allure.severity_level.CRITICAL)
 @pytest.mark.api
 def test_reason():
     if response_data.get("reason") == "Ok":
