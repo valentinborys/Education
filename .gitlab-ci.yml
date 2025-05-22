@@ -27,8 +27,10 @@ test:
 
 pages:
   stage: report
+  image: alpine
   script:
-    - mv allure-report public
+    - mkdir -p public
+    - cp -r allure-report/* public/
   artifacts:
     paths:
       - public
