@@ -2,7 +2,6 @@ stages:
   - test
 
 variables:
-  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
   ALLURE_VERSION: "2.21.0"
 
 test:
@@ -13,8 +12,6 @@ test:
     - pip install --upgrade pip
     - pip install -r requirements.txt
     - pip install allure-pytest
-
-    # Установка allure CLI
     - wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.zip -O allure.zip
     - unzip allure.zip -d /opt/
     - export PATH="$PATH:/opt/allure-${ALLURE_VERSION}/bin"
@@ -24,9 +21,7 @@ test:
     - /opt/allure-${ALLURE_VERSION}/bin/allure generate allure-results -o allure-report --clean
 
   artifacts:
-    expire_in: 1 week
     when: always
+    expire_in: 1 week
     paths:
-      - allure-report
-    reports:
-      allure: allure-report
+      - allure-report/
