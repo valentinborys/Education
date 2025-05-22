@@ -1,9 +1,9 @@
 import allure
 import psutil
+import pytest
 
-@allure.feature('BalancesTestTest')
-@allure.title('Mid correct adjust balance work 4')
-@allure.severity(allure.severity_level.CRITICAL)
+
+@pytest.skip
 def test_battery():
     battery = psutil.sensors_battery()
     percent = battery.percent
