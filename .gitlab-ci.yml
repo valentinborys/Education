@@ -1,39 +1,42 @@
 stages:
-    - tests
-    - report
+  - tests
+  - report
 
 variables:
-    GIT_STRATEGY: clone
-    GIT_SSL_NO_VERIFY: "true"
-    ALLURE_VERSION: "2.27.0"
+  GIT_STRATEGY: clone
+  GIT_SSL_NO_VERIFY: "true"
+  ALLURE_VERSION: "2.27.0"
 
 tests:
-    stage: tests
-    image: "registry.gitlab.tnxhub.com/devops/docker-go:3.1.0"
-    script:
-        - apt-get update && apt-get install -y unzip wget
-        - wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.zip
-        - unzip allure-${ALLURE_VERSION}.zip -d /opt/
-        - ln -s /opt/allure-${ALLURE_VERSION}/bin/allure /usr/bin/allure
-        - allure --version
-        - mkdir -p allure-results
-        - make test || RETCODE=`echo $?` ./slack_notify.py
-        - RETCODE=0 ./slack_notify.py
-    artifacts:
-        when: always
-        expire_in: '7 days'
-        paths:
-            - allure-results
-            - "*.png"
+  stage: tests
+  image: python:3.11
+  before_script:
+    - apt-get update && apt-get install -y unzip wget
+    - wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.zip
+    - unzip allure-${ALLURE_VERSION}.zip -d /opt/
+    - ln -s /opt/allure-${ALLURE_VERSION}/bin/allure /usr/bin/allure
+    - allure --version
+  script:
+    - mkdir -p allure-results
+    - pip install -r requirements.txt
+    - pytest --alluredir=allure-results || RETCODE=$? && ./slack_notify.py
+    - RETCODE=0 ./slack_notify.py
+  artifacts:
+    when: always
+    expire_in: 7 days
+    paths:
+      - allure-results
+      - "*.png"
 
 allure-report:
-    stage: report
-    script:
-        - /usr/bin/allure generate allure-results --clean -o allure-report
-    dependencies:
-        - tests
-    artifacts:
-        when: always
-        expire_in: '7 days'
-        paths:
-            - allure-report
+  stage: report
+  image: python:3.11
+  script:
+    - /usr/bin/allure generate allure-results --clean -o allure-report
+  dependencies:
+    - tests
+  artifacts:
+    when: always
+    expire_in: 7 days
+    paths:
+      - allure-report
