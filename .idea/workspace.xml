@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3990e019-6947-4a0c-b084-040c5c5d6802" name="Changes" comment="" />
+    <list default="true" id="3990e019-6947-4a0c-b084-040c5c5d6802" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/addDigits.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/test_addDigits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/test_api_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/array_working.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/test_array_working.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/battery_charger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/test_battery_charger.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +143,7 @@
       <recent name="C:\Users\lenov\PycharmProjects\Hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for battery_charger.test_battery">
+  <component name="RunManager" selected="Python tests.Python tests for Task.test_battery_charger.test_battery">
     <configuration name="change_letter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
@@ -182,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for addDigits.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for Task.test_addDigits.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,11 +199,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;addDigits.test_unit&quot;" />
+      <option name="_new_target" value="&quot;Task.test_addDigits.test_unit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for array_working.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for Task.test_array_working.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,11 +214,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;array_working.test_unit&quot;" />
+      <option name="_new_target" value="&quot;Task.test_array_working.test_unit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for battery_charger.test_battery" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for Task.test_battery_charger.test_battery" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,7 +229,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;battery_charger.test_battery&quot;" />
+      <option name="_new_target" value="&quot;Task.test_battery_charger.test_battery&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -244,9 +250,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for battery_charger.test_battery" />
-        <item itemvalue="Python tests.Python tests for array_working.test_unit" />
-        <item itemvalue="Python tests.Python tests for addDigits.test_unit" />
+        <item itemvalue="Python tests.Python tests for Task.test_battery_charger.test_battery" />
+        <item itemvalue="Python tests.Python tests for Task.test_array_working.test_unit" />
+        <item itemvalue="Python tests.Python tests for Task.test_addDigits.test_unit" />
         <item itemvalue="Python tests.Python tests for parametraze.test_login" />
         <item itemvalue="Python.change_letter" />
       </list>
