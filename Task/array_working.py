@@ -1,3 +1,6 @@
+from decorators import screenshot_on_failure
+
+
 class Solution(object):
     def plusOne(self, digits):
         """
@@ -9,7 +12,7 @@ class Solution(object):
         x = list(map(int, y))
         return x
 
-
+@screenshot_on_failure
 def test_unit():
     unit_test = Solution()
     result_1 = unit_test.plusOne([7, 2, 3, 4, 6])
