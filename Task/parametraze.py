@@ -2,6 +2,9 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 
 
 @pytest.mark.parametrize('creds', [('valentyn1@test.com', 'test'),
@@ -10,7 +13,8 @@ import pytest
                                    ])
 def test_login(creds):
     login, password = creds
-    driver = webdriver.Chrome()
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service)
     driver.get("https://magento.softwaretestingboard.com/customer/account/login")
     driver.maximize_window()
 

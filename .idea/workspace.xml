@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3990e019-6947-4a0c-b084-040c5c5d6802" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/valentinborys/Education.git&quot;,
-    &quot;accountId&quot;: &quot;0ec64f1e-468b-40db-9645-43fad70dc936&quot;
+    &quot;accountId&quot;: &quot;6cd31da2-5f81-46ef-adea-f11d6410b6b5&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -55,82 +55,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for Cards.test_cards_validation.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for addDigits.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for api_test.test_reason.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for array_working.TestSolution.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for array_working.TestSolution.test_plusOne.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for array_working.test_arr.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for array_working.test_plusOne.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for array_working.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for battery_charger.test_battery.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for binary_sum.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for isPowerOfFour.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for isPowerOfThree.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for ispoweroftwo.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for list_comprihation.test_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for longest_common_prefix.test_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for mail.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for mail.test_gmail_dos.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for mail.test_gmail_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for mail.test_open_gmail.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for merged_sorted_list.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for mergetwolist.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for missingelement.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for palindrom.test_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for palindrom.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for romanToInt.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for singleNumber.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for stairs.test_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for stairs.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for strongPasswordCheckerII.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for task_20.test_reason.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_task_20.test_get_minfin_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_task_20.test_reason.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for twoSum.test_unit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Task 19.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Task.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_task_20.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Faker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OOP.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pydantic.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 12.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 14.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 17.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 18.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 19.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test 13.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test 5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test 7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dictionary_work.executor&quot;: &quot;Run&quot;,
-    &quot;Python.eth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.index_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_20.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Valentyn/PycharmProjects/Education&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for addDigits.test_unit.executor": "Run",
+    "Python tests.Python tests for array_working.TestSolution.executor": "Run",
+    "Python tests.Python tests for array_working.TestSolution.test_plusOne.executor": "Run",
+    "Python tests.Python tests for array_working.test_arr.executor": "Run",
+    "Python tests.Python tests for array_working.test_plusOne.executor": "Run",
+    "Python tests.Python tests for array_working.test_unit.executor": "Run",
+    "Python tests.Python tests for binary_sum.test_unit.executor": "Run",
+    "Python tests.Python tests for isPowerOfFour.test_unit.executor": "Run",
+    "Python tests.Python tests for isPowerOfThree.test_unit.executor": "Run",
+    "Python tests.Python tests for ispoweroftwo.test_unit.executor": "Run",
+    "Python tests.Python tests for list_comprihation.test_list.executor": "Run",
+    "Python tests.Python tests for longest_common_prefix.test_test.executor": "Run",
+    "Python tests.Python tests for mail.test.executor": "Run",
+    "Python tests.Python tests for mail.test_gmail_dos.executor": "Run",
+    "Python tests.Python tests for mail.test_gmail_login.executor": "Run",
+    "Python tests.Python tests for mail.test_open_gmail.executor": "Run",
+    "Python tests.Python tests for merged_sorted_list.test_unit.executor": "Run",
+    "Python tests.Python tests for mergetwolist.test_unit.executor": "Run",
+    "Python tests.Python tests for missingelement.test_unit.executor": "Run",
+    "Python tests.Python tests for palindrom.test_test.executor": "Run",
+    "Python tests.Python tests for palindrom.test_unit.executor": "Run",
+    "Python tests.Python tests for parametraze.test_login.executor": "Run",
+    "Python tests.Python tests for romanToInt.test_unit.executor": "Run",
+    "Python tests.Python tests for singleNumber.test_unit.executor": "Run",
+    "Python tests.Python tests for stairs.test_1.executor": "Run",
+    "Python tests.Python tests for stairs.test_unit.executor": "Run",
+    "Python tests.Python tests for strongPasswordCheckerII.test_unit.executor": "Run",
+    "Python tests.Python tests for task_20.test_reason.executor": "Run",
+    "Python tests.Python tests for test_task_20.test_get_minfin_data.executor": "Run",
+    "Python tests.Python tests for test_task_20.test_reason.executor": "Run",
+    "Python tests.Python tests for twoSum.test_unit.executor": "Run",
+    "Python tests.Python tests in Task 19.py.executor": "Run",
+    "Python tests.Python tests in Task.executor": "Run",
+    "Python tests.Python tests in test_task_20.py.executor": "Run",
+    "Python.Faker.executor": "Run",
+    "Python.OOP.executor": "Run",
+    "Python.Pydantic.executor": "Run",
+    "Python.Task 1.executor": "Run",
+    "Python.Task 10.executor": "Run",
+    "Python.Task 11.executor": "Run",
+    "Python.Task 12.executor": "Run",
+    "Python.Task 14.executor": "Run",
+    "Python.Task 15.executor": "Run",
+    "Python.Task 17.executor": "Run",
+    "Python.Task 18.executor": "Run",
+    "Python.Task 19.executor": "Run",
+    "Python.Task 2.executor": "Run",
+    "Python.Task 3.executor": "Run",
+    "Python.Task 4.executor": "Run",
+    "Python.Task 5.executor": "Run",
+    "Python.Task 6.executor": "Run",
+    "Python.Task 7.executor": "Run",
+    "Python.Task 8.executor": "Run",
+    "Python.Task 9.executor": "Run",
+    "Python.Test 13.executor": "Run",
+    "Python.Test 5.executor": "Run",
+    "Python.Test 7.executor": "Run",
+    "Python.array.executor": "Run",
+    "Python.change_letter.executor": "Run",
+    "Python.count_list.executor": "Run",
+    "Python.eth.executor": "Run",
+    "Python.index_element.executor": "Run",
+    "Python.mail.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.task_20.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Valentyn/PycharmProjects/Education",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Valentyn\PycharmProjects\Education\Task" />
@@ -139,7 +138,51 @@
       <recent name="C:\Users\lenov\PycharmProjects\Hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.eth">
+  <component name="RunManager" selected="Python tests.Python tests for addDigits.test_unit">
+    <configuration name="change_letter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task/change_letter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="count_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task/count_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="eth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
@@ -184,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Cards.test_cards_validation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for addDigits.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,11 +238,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Cards.test_cards_validation&quot;" />
+      <option name="_new_target" value="&quot;addDigits.test_unit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for array_working.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for parametraze.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,54 +253,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;array_working.test_unit&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for battery_charger.test_battery" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;battery_charger.test_battery&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for binary_sum.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;binary_sum.test_unit&quot;" />
+      <option name="_new_target" value="&quot;parametraze.test_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for addDigits.test_unit" />
+        <item itemvalue="Python tests.Python tests for parametraze.test_login" />
+        <item itemvalue="Python.change_letter" />
+        <item itemvalue="Python.count_list" />
         <item itemvalue="Python.eth" />
-        <item itemvalue="Python tests.Python tests for array_working.test_unit" />
-        <item itemvalue="Python tests.Python tests for Cards.test_cards_validation" />
-        <item itemvalue="Python tests.Python tests for binary_sum.test_unit" />
-        <item itemvalue="Python tests.Python tests for battery_charger.test_battery" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
       </set>
     </attachedChunks>
   </component>
@@ -282,15 +295,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Task/Cards.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

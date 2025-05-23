@@ -1,0 +1,33 @@
+stages:
+  - test
+  - deploy
+
+variables:
+  ALLURE_VERSION: "2.21.0"
+
+test:
+  stage: test
+  image: python:3.10-slim
+  before_script:
+    - apt-get update && apt-get install -y unzip wget curl openjdk-17-jre
+    - pip install -r requirements.txt
+    - pip install allure-pytest
+    - wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.zip -O allure.zip
+    - unzip allure.zip -d /opt/
+    - export PATH="$PATH:/opt/allure-${ALLURE_VERSION}/bin"
+  script:
+    - pytest --alluredir=allure-results
+    - /opt/allure-${ALLURE_VERSION}/bin/allure generate allure-results -o public --clean
+  artifacts:
+    paths:
+      - public
+
+pages:
+  stage: deploy
+  script:
+    - echo "GitLab Pages deployed!"
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
