@@ -5,7 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3990e019-6947-4a0c-b084-040c5c5d6802" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Science/patrol_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/Cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Cards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/Faker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Faker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/OOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/OOP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/addDigits.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/addDigits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/api_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/array_working.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/array_working.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/average_mark.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/average_mark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/battery_charger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/battery_charger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/binary_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/binary_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/change_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/change_char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/change_letter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/change_letter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/cortage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/cortage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/count_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/count_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/data_science.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/appartment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/dict3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/dict3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/diction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/diction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/dictionary_use.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/dictionary_use.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/dictionary_work.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/dictionary_work.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/eth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/eth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/eval_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/eval_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/find_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/find_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/gretestLetter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/gretestLetter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/index_contains.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/index_contains.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/index_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/index_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/index_using.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/index_using.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/isPowerOfFour.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/isPowerOfFour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/isPowerOfThree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/isPowerOfThree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/isUgly.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/isUgly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/ispoweroftwo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/ispoweroftwo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/list_comprihation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/list_comprihation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/list_uniq.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/list_uniq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/merged_sorted_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/merged_sorted_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/mergetwolist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/mergetwolist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/missingelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/missingelement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/palindrom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/palindrom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/parametraze.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/parametraze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/pydantic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/pydantic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/reverse_and_contain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/reverse_and_contain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/reverse_array_elemant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/reverse_array_elemant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/romanToInt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/romanToInt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/singleNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/singleNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/stairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/stairs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/strongPasswordCheckerII.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/strongPasswordCheckerII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/touple.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/touple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/twoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/twoSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/uniq.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/uniq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/work_with_dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/work_with_dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/working_with_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/working_with_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/06765539-1da3-4c90-98ed-74c8ab5fc0f3-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/allure-results/06765539-1da3-4c90-98ed-74c8ab5fc0f3-container.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f83071d-0e7f-4e43-aea6-821a19ad567b-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/allure-results/2f83071d-0e7f-4e43-aea6-821a19ad567b-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4dc21cea-2461-4678-93e3-be92f1306d85-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/allure-results/4dc21cea-2461-4678-93e3-be92f1306d85-container.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/57300b06-08f3-4660-be67-5c81bdbb7334-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/allure-results/57300b06-08f3-4660-be67-5c81bdbb7334-attachment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/82205ce6-7b45-4e1f-896e-6c4fefc3aea5-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/allure-results/82205ce6-7b45-4e1f-896e-6c4fefc3aea5-attachment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fd88ec4f-b9f6-474c-baac-ba576e1ba3bc-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/allure-results/fd88ec4f-b9f6-474c-baac-ba576e1ba3bc-result.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +96,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/valentinborys/Education.git&quot;,
-    &quot;accountId&quot;: &quot;6cd31da2-5f81-46ef-adea-f11d6410b6b5&quot;
+    &quot;accountId&quot;: &quot;0ec64f1e-468b-40db-9645-43fad70dc936&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -55,90 +120,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for addDigits.test_unit.executor": "Run",
-    "Python tests.Python tests for array_working.TestSolution.executor": "Run",
-    "Python tests.Python tests for array_working.TestSolution.test_plusOne.executor": "Run",
-    "Python tests.Python tests for array_working.test_arr.executor": "Run",
-    "Python tests.Python tests for array_working.test_plusOne.executor": "Run",
-    "Python tests.Python tests for array_working.test_unit.executor": "Run",
-    "Python tests.Python tests for binary_sum.test_unit.executor": "Run",
-    "Python tests.Python tests for isPowerOfFour.test_unit.executor": "Run",
-    "Python tests.Python tests for isPowerOfThree.test_unit.executor": "Run",
-    "Python tests.Python tests for ispoweroftwo.test_unit.executor": "Run",
-    "Python tests.Python tests for list_comprihation.test_list.executor": "Run",
-    "Python tests.Python tests for longest_common_prefix.test_test.executor": "Run",
-    "Python tests.Python tests for mail.test.executor": "Run",
-    "Python tests.Python tests for mail.test_gmail_dos.executor": "Run",
-    "Python tests.Python tests for mail.test_gmail_login.executor": "Run",
-    "Python tests.Python tests for mail.test_open_gmail.executor": "Run",
-    "Python tests.Python tests for merged_sorted_list.test_unit.executor": "Run",
-    "Python tests.Python tests for mergetwolist.test_unit.executor": "Run",
-    "Python tests.Python tests for missingelement.test_unit.executor": "Run",
-    "Python tests.Python tests for palindrom.test_test.executor": "Run",
-    "Python tests.Python tests for palindrom.test_unit.executor": "Run",
-    "Python tests.Python tests for parametraze.test_login.executor": "Run",
-    "Python tests.Python tests for romanToInt.test_unit.executor": "Run",
-    "Python tests.Python tests for singleNumber.test_unit.executor": "Run",
-    "Python tests.Python tests for stairs.test_1.executor": "Run",
-    "Python tests.Python tests for stairs.test_unit.executor": "Run",
-    "Python tests.Python tests for strongPasswordCheckerII.test_unit.executor": "Run",
-    "Python tests.Python tests for task_20.test_reason.executor": "Run",
-    "Python tests.Python tests for test_task_20.test_get_minfin_data.executor": "Run",
-    "Python tests.Python tests for test_task_20.test_reason.executor": "Run",
-    "Python tests.Python tests for twoSum.test_unit.executor": "Run",
-    "Python tests.Python tests in Task 19.py.executor": "Run",
-    "Python tests.Python tests in Task.executor": "Run",
-    "Python tests.Python tests in test_task_20.py.executor": "Run",
-    "Python.Faker.executor": "Run",
-    "Python.OOP.executor": "Run",
-    "Python.Pydantic.executor": "Run",
-    "Python.Task 1.executor": "Run",
-    "Python.Task 10.executor": "Run",
-    "Python.Task 11.executor": "Run",
-    "Python.Task 12.executor": "Run",
-    "Python.Task 14.executor": "Run",
-    "Python.Task 15.executor": "Run",
-    "Python.Task 17.executor": "Run",
-    "Python.Task 18.executor": "Run",
-    "Python.Task 19.executor": "Run",
-    "Python.Task 2.executor": "Run",
-    "Python.Task 3.executor": "Run",
-    "Python.Task 4.executor": "Run",
-    "Python.Task 5.executor": "Run",
-    "Python.Task 6.executor": "Run",
-    "Python.Task 7.executor": "Run",
-    "Python.Task 8.executor": "Run",
-    "Python.Task 9.executor": "Run",
-    "Python.Test 13.executor": "Run",
-    "Python.Test 5.executor": "Run",
-    "Python.Test 7.executor": "Run",
-    "Python.array.executor": "Run",
-    "Python.change_letter.executor": "Run",
-    "Python.count_list.executor": "Run",
-    "Python.eth.executor": "Run",
-    "Python.index_element.executor": "Run",
-    "Python.mail.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.task_20.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Valentyn/PycharmProjects/Education",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for addDigits.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for array_working.TestSolution.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for array_working.TestSolution.test_plusOne.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for array_working.test_arr.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for array_working.test_plusOne.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for array_working.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for binary_sum.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for isPowerOfFour.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for isPowerOfThree.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for ispoweroftwo.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for list_comprihation.test_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for longest_common_prefix.test_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for mail.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for mail.test_gmail_dos.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for mail.test_gmail_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for mail.test_open_gmail.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for merged_sorted_list.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for mergetwolist.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for missingelement.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for palindrom.test_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for palindrom.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for parametraze.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for patrol_model.test_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for romanToInt.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for singleNumber.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for stairs.test_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for stairs.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for strongPasswordCheckerII.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for task_20.test_reason.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_task_20.test_get_minfin_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_task_20.test_reason.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for twoSum.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Task 19.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Task.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_task_20.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Faker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pydantic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test 13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test 5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test 7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.change_letter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.count_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eth.executor&quot;: &quot;Run&quot;,
+    &quot;Python.index_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mail.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_20.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Valentyn/PycharmProjects/Education&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Valentyn\PycharmProjects\Education\Task" />
+      <recent name="C:\Users\Valentyn\PycharmProjects\Education\Automation" />
       <recent name="C:\Users\Valentyn\PycharmProjects\Education" />
+      <recent name="C:\Users\Valentyn\PycharmProjects\Education\Task\Data Science" />
+      <recent name="C:\Users\Valentyn\PycharmProjects\Education\Task" />
       <recent name="C:\Users\lenov\PycharmProjects\Education" />
-      <recent name="C:\Users\lenov\PycharmProjects\Hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for addDigits.test_unit">
+  <component name="RunManager" selected="Python tests.Python tests for patrol_model.test_test">
     <configuration name="change_letter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
@@ -183,28 +250,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="eth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task/eth.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
@@ -233,7 +278,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Automation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -248,7 +293,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Automation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -257,20 +302,35 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for patrol_model.test_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Science" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;patrol_model.test_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for patrol_model.test_test" />
         <item itemvalue="Python tests.Python tests for addDigits.test_unit" />
         <item itemvalue="Python tests.Python tests for parametraze.test_login" />
         <item itemvalue="Python.change_letter" />
         <item itemvalue="Python.count_list" />
-        <item itemvalue="Python.eth" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
+        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
       </set>
     </attachedChunks>
   </component>

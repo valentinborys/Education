@@ -46,3 +46,7 @@ plt.title('Лінійна регресія')
 plt.grid(True)
 plt.show()
 
+# Для запуску:
+# pip install notebook
+# jupyter notebook
+# новий файл вставити -> запустити
