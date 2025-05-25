@@ -31,8 +31,7 @@ print(f'Прогнозована витрата палива при скорос
 coef = model.coef_[0]
 intercept = model.intercept_
 
-print(f"Коефіцієнт (за кожен 1 м²): {coef:.2f} тис. $")
-print(f"Базова ціна (при площі 0 м²): {intercept:.2f} тис. $")
+print(f"Коефіцієнт (за кожен 1 км): {coef:.2f} тис. $")
 
 plt.scatter(x, y, color='blue')
 plt.plot(x, model.predict(x), color='red', linewidth=2)
