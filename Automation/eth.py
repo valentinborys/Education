@@ -39,9 +39,10 @@ def calculate():
         return
 
     inv = abandoned_now(monthly, month)
-    deviation = round(balance / inv * 100, 2) if inv != 0 else 0
+    deviation = round(balance / inv * 100, 2)
     fell_percent = round(100 - deviation, 2)
-    breakeven = round(eth_price * (1 + fell_percent / 100), 2)
+
+    breakeven = eth_price * 100 / deviation
 
     result_var.set(
         f"💰 Invested to {month.capitalize()}: {inv}$\n"

@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:Automation/test_array_working.py
 import allure
+========
+from decorators import screenshot_on_failure
+>>>>>>>> 5db0e593f0a3ed79eb7bf725ef7098a2c1d5f56f:Automation/array_working.py
 
 
 class Solution(object):
@@ -12,9 +16,13 @@ class Solution(object):
         x = list(map(int, y))
         return x
 
+<<<<<<<< HEAD:Automation/test_array_working.py
 @allure.feature('BalancesTest')
 @allure.title('Mid correct adjust balance work 3')
 @allure.severity(allure.severity_level.CRITICAL)
+========
+@screenshot_on_failure
+>>>>>>>> 5db0e593f0a3ed79eb7bf725ef7098a2c1d5f56f:Automation/array_working.py
 def test_unit():
     unit_test = Solution()
     result_1 = unit_test.plusOne([7, 2, 3, 4, 6])
