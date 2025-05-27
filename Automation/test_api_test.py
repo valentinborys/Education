@@ -1,3 +1,4 @@
+import allure
 import pytest
 import requests
 import json
@@ -35,7 +36,8 @@ response_data = response.json()
 
 print(response_data)
 
-
+@allure.feature('Balances')
+@allure.title('Mid correct adjust balance work 2')
 @pytest.mark.api
 def test_reason():
     if response_data.get("reason") == "Ok":

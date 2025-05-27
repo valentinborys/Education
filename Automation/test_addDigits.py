@@ -11,9 +11,9 @@ class Solution(object):
             num = sum(int(digit) for digit in str(num))
         return num
 
-@allure.feature("FEATURE")
-@allure.story("STORY")
-@allure.severity(allure.severity_level.CRITICAL)
+
+@allure.feature('Balances')
+@allure.title('Mid correct adjust balance work')
 def test_unit():
     solution = Solution()
     print(solution.addDigits(4))

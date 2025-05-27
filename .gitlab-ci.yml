@@ -1,6 +1,6 @@
 stages:
   - test
-  - deploy
+  - report
 
 variables:
   ALLURE_VERSION: "2.21.0"
@@ -10,6 +10,7 @@ test:
   image: python:3.10-slim
   before_script:
     - apt-get update && apt-get install -y unzip wget curl openjdk-17-jre
+    - pip install --upgrade pip
     - pip install -r requirements.txt
     - pip install allure-pytest
     - wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.zip -O allure.zip
@@ -17,15 +18,19 @@ test:
     - export PATH="$PATH:/opt/allure-${ALLURE_VERSION}/bin"
   script:
     - pytest --alluredir=allure-results
-    - /opt/allure-${ALLURE_VERSION}/bin/allure generate allure-results -o public --clean
+    - /opt/allure-${ALLURE_VERSION}/bin/allure generate allure-results -o allure-report --clean
   artifacts:
+    when: always
+    expire_in: 1 week
     paths:
-      - public
+      - allure-report/
 
 pages:
-  stage: deploy
+  stage: report
+  image: alpine
   script:
-    - echo "GitLab Pages deployed!"
+    - mkdir -p public
+    - cp -r allure-report/* public/
   artifacts:
     paths:
       - public
