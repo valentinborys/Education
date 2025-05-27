@@ -2,6 +2,8 @@ import random
 import datetime
 from datetime import datetime
 
+from decorators import my_decorate
+
 
 def x(string):
     y = string[::-1]
@@ -126,22 +128,6 @@ def char_frequency(word):
     print(x)
 
 char_frequency("banana")
-
-
-
-def my_decorate(func):
-    def wrapper(*args, **kwargs):
-        start = datetime.now()
-        print(f' ... Started in {start}')
-        result = func(*args, **kwargs)
-        print(f'\n{result}')
-        finish = datetime.now()
-        print(f'\n ... Finished in {finish}')
-        speed = finish - start
-        print(f' ... Speed of function: {speed} ms')
-        return result
-    return wrapper
-
 
 
 @my_decorate
