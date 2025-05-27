@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3990e019-6947-4a0c-b084-040c5c5d6802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Automation/list_ed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/face.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/libraries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/string_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/patrol_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/patrol_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
     "Python tests.Python tests for array_working.test_plusOne.executor": "Run",
     "Python tests.Python tests for array_working.test_unit.executor": "Run",
     "Python tests.Python tests for binary_sum.test_unit.executor": "Run",
-    "Python tests.Python tests for face.test.executor": "Run",
+    "Python tests.Python tests for face.test.executor": "Debug",
     "Python tests.Python tests for isPowerOfFour.test_unit.executor": "Run",
     "Python tests.Python tests for isPowerOfThree.test_unit.executor": "Run",
     "Python tests.Python tests for ispoweroftwo.test_unit.executor": "Run",
@@ -129,6 +126,8 @@
     "Python.index_element.executor": "Run",
     "Python.mail.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.random.executor": "Run",
+    "Python.string_function.executor": "Run",
     "Python.task_20.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -147,7 +146,7 @@
       <recent name="C:\Users\lenov\PycharmProjects\Education" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for face.test">
+  <component name="RunManager" selected="Python.string_function">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
@@ -170,19 +169,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for addDigits.test_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="random" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/random.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="string_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Automation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;addDigits.test_unit&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Automation/string_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for face.test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -230,28 +258,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for patrol_model.test_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Science" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;patrol_model.test_test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.string_function" />
+        <item itemvalue="Python.random" />
         <item itemvalue="Python tests.Python tests for face.test" />
         <item itemvalue="Python tests.Python tests for libraries.test_libraries" />
         <item itemvalue="Python tests.Python tests for list_ed.test_list" />
-        <item itemvalue="Python tests.Python tests for patrol_model.test_test" />
-        <item itemvalue="Python tests.Python tests for addDigits.test_unit" />
       </list>
     </recent_temporary>
   </component>
