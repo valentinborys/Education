@@ -164,7 +164,6 @@ def longest_word(string):
     longest = []
     for i in x:
         longest.append(len(i))
-
     y = max(longest)
     print(y)
     return y
