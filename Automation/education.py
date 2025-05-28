@@ -158,7 +158,6 @@ def word_count(string):
 
 word_count("Hello, world! Hello Python.")
 
-
 def longest_word(string):
     x = string.replace("?", "").replace(", ", " ").replace("!", "").lower().split(" ")
     longest = []
