@@ -144,5 +144,41 @@ def is_prime(num):
 is_prime(13)
 
 
+def word_count(string):
+    diction = {}
+    arr = string.replace(', ', ' ').replace('! ', ' ').replace('.', '').lower().split(' ')
+    for i in arr:
+        if i in diction:
+            diction[i] += 1
+        else:
+            diction[i] = 1
+    print(diction)
+    return diction
+    # print(i)
+
+word_count("Hello, world! Hello Python.")
 
 
+def longest_word(string):
+    x = string.replace("?", "").replace(", ", " ").replace("!", "").lower().split(" ")
+    longest = []
+    for i in x:
+        longest.append(len(i))
+
+    y = max(longest)
+    print(y)
+    return y
+
+longest_word("В чащах юга жил-был цитрус? Да, но фальшивый экземпляр!")
+
+
+def longest_word_2(string):
+    x = string.replace("?", "").replace(", ", " ").replace("!", "").lower().split(" ")
+    longest = 0
+    for i in x:
+        if len(i)>longest:
+            longest = int(len(i))
+    print(longest)
+    return longest
+
+longest_word_2("В чащах юга жил-был цитрус? Да, но фальшивый экземпляр!")
