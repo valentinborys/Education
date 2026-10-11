@@ -1,3 +1,4 @@
+from Demos.SystemParametersInfo import new_w
 from numpy.ma.core import repeat
 
 
@@ -320,6 +321,77 @@ def test_same_numbers():
     print(indexes, numbers_all)
 
 
+def test_duplicates():
+    numbers = [4, 7, 2, 7, 9, 4, 12, 7, 2]
+    duplicates = []
+
+    for i in numbers:
+        if numbers.count(i) > 1:
+            if numbers[i] not in duplicates:
+                duplicates.append(numbers[i])
+
+    for i in duplicates:
+        print(i)
 
 
+def test_unique_number():
+    numbers = [4, 7, 2, 7, 9, 4, 12, 7, 2]
 
+    for i in numbers:
+        if numbers.count(i)==1:
+            print(i)
+            return
+
+
+def test_second_largest():
+    numbers = [10, 5, 8, 10, 3, 8, 7]
+    uniq_num = []
+
+    for i in numbers:
+        if i not in uniq_num:
+            uniq_num.append(i)
+
+    biggest = max(uniq_num)
+    uniq_num.remove(biggest)
+    new_biggest = max(uniq_num)
+
+    print(new_biggest)
+
+
+def test_two_sum():
+    numbers = [12, 7, 11, 2, 15]
+    target = 9
+
+    for i in range(len(numbers)):
+        for j in range(i + 1, len(numbers)):
+            if numbers[i]+numbers[j] == target:
+                print(i, j)
+                return
+
+
+def test_longest_word_list():
+    text = "python is great for automation"
+    words_list = text.split(" ")
+
+    longest = 0
+    longest_word = ""
+
+    for i in words_list:
+        if longest < len(i):
+            longest = len(i)
+            longest_word = i
+
+    print(longest_word)
+
+
+def test_char_count():
+    text = "automation"
+    chars = {}
+
+    for i in text:
+        chars[i] = 0
+
+    for i in text:
+        chars[i] += 1
+
+    print(chars)
