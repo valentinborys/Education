@@ -180,3 +180,10 @@ def longest_word_2(string):
     return longest
 
 longest_word_2("В чащах юга жил-был цитрус? Да, но фальшивый экземпляр!")
+
+
+def most_frequent_words(text: str):
+    new_text = text.replace("?", "").replace(", ", " ").replace("!", "").lower().split(" ")
+    print(new_text)
+
+most_frequent_words("Привет, привет! Как твои дела, Привет?", 2)
