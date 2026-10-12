@@ -395,3 +395,39 @@ def test_char_count():
         chars[i] += 1
 
     print(chars)
+
+
+def test_first_count():
+    numbers = [4, 7, 2, 7, 9, 4, 12, 7, 2]
+    duplicate = []
+
+    for i in range(len(numbers)):
+        for j in range(i + 1, len(numbers)):
+            if numbers[i] == numbers[j]:
+                if numbers[i] not in duplicate:
+                    duplicate.append(numbers[i])
+
+    for i in range(len(numbers)):
+        if numbers[i] not in duplicate:
+            print(numbers[i])
+            return
+
+
+def test_first_count_dict():
+    numbers = [4, 7, 2, 7, 9, 4, 12, 7, 2]
+    counts = {}
+
+    for i in numbers:
+        if i not in counts:
+            counts[i] = 0
+
+    for i in numbers:
+        counts[i] +=1
+
+    for x in counts:
+        if counts[x] == 1:
+            print(x)
+            return
+
+
+
