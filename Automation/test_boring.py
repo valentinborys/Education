@@ -1,6 +1,3 @@
-from Demos.SystemParametersInfo import new_w
-from numpy.ma.core import repeat
-
 
 def test_1():
     variable1 = [1, 2, 3]
@@ -429,5 +426,239 @@ def test_first_count_dict():
             print(x)
             return
 
+
+def test_duplicate_1():
+    numbers = [4, 7, 2, 7, 9, 4, 12, 7, 2]
+    dupl = []
+
+    for i in numbers:
+        if numbers.count(i) > 1 and i not in dupl:
+            dupl.append(i)
+
+    print(dupl)
+
+def test_duplicate_2():
+    numbers = [4, 7, 2, 7, 9, 4, 12, 7, 2]
+    dupl = []
+
+    for i in range(len(numbers)):
+        for j in range(i + 1, len(numbers)):
+            if numbers[i] == numbers[j] and numbers[i] not in dupl:
+                dupl.append(numbers[i])
+    print(dupl)
+
+
+def test_first_repeat():
+    numbers = [1, 5, 3, 8, 3, 5, 9, 3, 12]
+
+    for i in range(len(numbers)):
+        for j in range(i + 1, len(numbers)):
+            if numbers[i] == numbers[j]:
+                print(numbers[i])
+                return numbers[i]
+
+def test_first_uniq():
+    numbers = [5, 3, 8, 3, 5, 9, 3, 12]
+    dupl = []
+
+    for i in range(len(numbers)):
+        for j in range(i + 1, len(numbers)):
+            if numbers[i] == numbers[j] and numbers[i]not in dupl:
+                dupl.append(numbers[i])
+
+    result = [i for i in numbers if i not in dupl]
+    uniq = result[0]
+    print(uniq)
+
+def test_array_take_away():
+    numbers_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    numbers_2 = [1, 2, 3, 4]
+
+    new_arr = [i for i in numbers_1 if i %2==0]
+    new_arr_2 = [i for i in numbers_1 if i not in numbers_2]
+
+    print(new_arr_2)
+
+
+
+def test_sort_second():
+    numbers = [12, 5, 8, 12, 3, 9, 8, 10]
+    new_arr = []
+
+    for i in numbers:
+        if i not in new_arr:
+                new_arr.append(i)
+
+
+def test_bubble_sort_second():
+    numbers = [5, 2, 8, 1]
+
+    for i in range(len(numbers)):
+        for j in range(len(numbers)-1-i):
+            if numbers[j] < numbers[j+1]:
+                numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+
+    print(numbers)
+
+def test_bubble_sort_second_uniq():
+    numbers = [12, 5, 8, 12, 3, 9, 8, 10]
+    numbers_uniq = []
+
+    for i in numbers:
+        if i not in numbers_uniq:
+            numbers_uniq.append(i)
+
+    for i in range(len(numbers_uniq)):
+        for j in range(len(numbers_uniq)-1-i):
+            if numbers_uniq[j] < numbers_uniq[j+1]:
+                numbers_uniq[j], numbers_uniq[j+1] = numbers_uniq[j+1], numbers_uniq[j]
+
+    print(numbers_uniq[1])
+
+def test_str():
+    text = "automation"
+    counter = {}
+
+    for i in text:
+        if i not in counter:
+            counter[i] = 1
+        else:
+            counter[i] += 1
+
+    print(counter)
+
+def test_str_uniq():
+
+    text = "aabbcddee"
+    counter = {}
+
+    for i in text:
+        if i not in counter:
+            counter[i] = 1
+        else:
+            counter[i] += 1
+
+    for y in counter:
+        if counter[y] == 1:
+            print(y)
+            return y
+
+def test_target():
+
+    numbers = [9, 45, 5, 81, 0]
+    target = 9
+
+    for i in range(len(numbers)):
+        for j in range(i + 1, len(numbers)):
+            if numbers[i] + numbers[j] == target:
+                print(i, j)
+                return i, j
+
+
+def test_second_bigger():
+    numbers = [14, 7, 22, 14, 9, 22, 18, 3]
+    numbers_uniq = []
+
+    for i in numbers:
+        if i not in numbers_uniq:
+            numbers_uniq.append(i)
+
+    for i in range(len(numbers_uniq)):
+        for j in range(len(numbers_uniq)-1-i):
+            if numbers_uniq[j]<numbers_uniq[j+1]:
+                numbers_uniq[j], numbers_uniq[j+1] = numbers_uniq[j+1], numbers_uniq[j]
+
+    print(numbers_uniq[1])
+    return numbers_uniq[1]
+
+def test_second_bigger_213():
+    numbers = [14, 7, 22, 14, 9, 22, 18, 3]
+    numbers_uniq = []
+    max_char = 0
+    new_max = 0
+
+    for i in numbers:
+        if i not in numbers_uniq:
+            numbers_uniq.append(i)
+
+    for i in numbers_uniq:
+        if i > max_char:
+            max_char = i
+
+    numbers_uniq.remove(max_char)
+
+    for i in numbers_uniq:
+        if i > new_max:
+            new_max = i
+
+    return new_max
+
+
+
+def test_first_char():
+    numbers = [4, 7, 2, 7, 9, 4, 12, 7, 2]
+    duplicate = []
+
+
+    for i in range(len(numbers)):
+        for j in range(i+1, len(numbers)):
+            if numbers[i] == numbers[j]:
+                duplicate.append(numbers[i])
+
+    new_arr = [i for i in numbers if i not in duplicate]
+
+    print(new_arr[0])
+
+def test_palindrome_():
+    text = "level".lower()
+    text_2 = text[::-1]
+
+    if text_2 == text:
+        print("It's string is palindrome")
+        return True
+    else:
+        print("This string is not palindrome")
+        return False
+
+def test_longest_word_():
+    text = "python is great for automation"
+    text = text.split(" ")
+    current_length = 0
+    max_length = ""
+
+    for i in text:
+        longest = len(i)
+        if longest > current_length:
+            current_length = longest
+            max_length = i
+
+    print(f"The longest word is '{max_length}', length: '{current_length}'")
+    return
+
+def test_unique_values():
+    list_1 = [1, 2, 3, 4, 5]
+    list_2 = [3, 4, 5, 6, 7]
+
+    for i in list_2:
+        if i not in list_1:
+            list_1.append(i)
+
+    print(list_1)
+
+def test_brackets():
+    text = "(()())"
+    correct = 0
+    open_bracket = "("
+    close_bracket = ")"
+
+    for i in text:
+        if i == open_bracket:
+            correct +=1
+        if i == close_bracket:
+            correct -=1
+    if correct < 0:
+        return False
+    else:
+        return True
 
 
