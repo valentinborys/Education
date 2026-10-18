@@ -662,3 +662,22 @@ def test_brackets():
         return True
 
 
+def test_find_missing_users():
+    expected_users = [101, 102, 103, 104, 105, 106]
+    actual_users = [102, 104, 105, 107]
+
+    missing_users = [i for i in expected_users if i not in actual_users]
+    return missing_users
+
+def test_common_users():
+    first_response = [12, 7, 11, 2, 15, 7]
+    second_response = [7, 2, 20, 12, 30]
+
+    common_users = []
+    for i in first_response:
+        if i in second_response and i not in common_users:
+            common_users.append(i)
+
+    print(common_users)
+    return common_users
+
