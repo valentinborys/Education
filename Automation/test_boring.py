@@ -681,3 +681,127 @@ def test_common_users():
     print(common_users)
     return common_users
 
+def test_status():
+    transactions = [
+        {"id": 101, "status": "success"},
+        {"id": 102, "status": "failed"},
+        {"id": 103, "status": "pending"},
+        {"id": 104, "status": "failed"},
+        {"id": 102, "status": "failed"},
+        {"id": 105, "status": "success"},
+    ]
+
+    target_status = "failed"
+    transaction = [tx for tx in transactions if tx["status"] == target_status]
+    ids = []
+    for i in transaction:
+        if i["id"] not in ids:
+            ids.append(i["id"])
+
+    print(ids)
+
+def test_sum():
+    transactions = [
+        {"id": 201, "status": "success", "amount": 150},
+        {"id": 202, "status": "failed", "amount": 300},
+        {"id": 203, "status": "success", "amount": 80},
+        {"id": 204, "status": "success", "amount": 200},
+        {"id": 205, "status": "pending", "amount": 500},
+    ]
+
+    amount = 0
+    transaction = [tx for tx in transactions if tx["status"] == "success" and tx["amount"]>=100]
+
+    for i in transaction:
+        amount += i["amount"]
+    print(amount)
+    assert amount == 350
+
+def test_duplicate_transactions():
+    transactions = [
+        {"id": 301, "status": "success"},
+        {"id": 302, "status": "failed"},
+        {"id": 303, "status": "success"},
+        {"id": 301, "status": "failed"},
+        {"id": 304, "status": "success"},
+        {"id": 302, "status": "success"},
+        {"id": 301, "status": "success"},
+    ]
+
+    ids = []
+    duplicates = []
+
+    for i in transactions:
+        ids.append(i["id"])
+
+    for i in range(len(ids)):
+        for j in range(i+1, len(ids)):
+            if ids[i] == ids[j] and ids[i] not in duplicates:
+                duplicates.append(ids[i])
+
+    assert duplicates == [301, 302]
+
+def test_id_failed():
+    transactions = [
+        {"id": 401, "status": "failed", "amount": 150},
+        {"id": 402, "status": "success", "amount": 300},
+        {"id": 403, "status": "failed", "amount": 80},
+        {"id": 401, "status": "failed", "amount": 200},
+        {"id": 404, "status": "failed", "amount": 250},
+        {"id": 405, "status": "pending", "amount": 500},
+    ]
+
+    transaction = [i for i in transactions if i["status"] == "failed" and i["amount"]>100]
+    error_duplicates = []
+
+    for i in transaction:
+        if i["id"] not in error_duplicates:
+            error_duplicates.append(i["id"])
+
+    assert error_duplicates == [401, 404]
+
+
+def test_active_admins():
+    users = [
+        {"id": 1, "role": "admin", "active": True},
+        {"id": 2, "role": "user", "active": True},
+        {"id": 3, "role": "admin", "active": False},
+        {"id": 1, "role": "admin", "active": True},
+        {"id": 4, "role": "admin", "active": True},
+        {"id": 5, "role": "user", "active": False},
+    ]
+
+    active = [i for i in users if i["role"] == "admin" and i["active"]==True]
+
+    unique = []
+
+    for i in active:
+        if i["id"] not in unique:
+            unique.append(i["id"])
+
+    assert unique == [1, 4]
+
+    print(unique)
+
+
+from collections import defaultdict
+
+def test_failed_amount_by_user():
+    transactions = [
+        {"user_id": 10, "status": "failed", "amount": 150},
+        {"user_id": 20, "status": "success", "amount": 300},
+        {"user_id": 10, "status": "failed", "amount": 250},
+        {"user_id": 30, "status": "failed", "amount": 80},
+        {"user_id": 20, "status": "failed", "amount": 200},
+        {"user_id": 10, "status": "success", "amount": 100},
+    ]
+
+    x = defaultdict(int)
+    print(dict(x))
+
+    for t in transactions:
+        if t["status"] == "failed":
+            x[t["user_id"]] += t["amount"]
+
+
+    print(dict(x))
